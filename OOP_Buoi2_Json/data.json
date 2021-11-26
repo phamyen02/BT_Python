@@ -1,0 +1,17 @@
+[
+  {
+    "account_number": "1",
+    "account_name": "Nguyen Van A",
+    "balance": 1000000000
+  },
+  {
+    "account_number": "2",
+    "account_name": "Nguyen Van B",
+    "balance": 2000000000
+  },
+  {
+    "account_number": "3",
+    "account_name": "Nguyen Van C",
+    "balance": 2000000000
+  }
+]
