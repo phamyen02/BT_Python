@@ -48,7 +48,7 @@ class Fraction(object):
         return Fraction(self.nr * other.nr, self.dr * other.dr)
 
 if __name__ == '__main__':
-    f1 = Fraction(1, 2)
+    f1 = Fraction(1, 4)
     print(f1)
     f2 = Fraction(2, 9)
     print(f2)
