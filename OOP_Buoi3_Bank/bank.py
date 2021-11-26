@@ -69,9 +69,10 @@ class SavingAccount(BankAccount):
         if self.account_name is Customer:
             self.account_name.get_info()
 
-savingacount = SavingAccount(123456655, "A", 980000000000)
+savingacount = SavingAccount(123456655, "Nguyen Van A", 980000000000)
 savingacount.display()
 print("Tiền lãi:" ,savingacount.calculate_interest())
+
 print("Thông tin khách hàng:")
 customer = Customer("Nguyen Van A", "02-10-1994", "NguyenVanA@gmail.com", "0398183648")
 customer.get_info()
